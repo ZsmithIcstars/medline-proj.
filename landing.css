@@ -1,0 +1,143 @@
+.fit-image {
+    width: 100%; 
+    max-width: 60px; 
+    height: auto; 
+}
+.fit-image2 {
+        display: block; /* Makes the image a block element */
+        margin: 0 auto;
+
+}
+.center-text {
+    text-align: center;
+}
+.fit-image3 {
+    background-image: url('Picture2.png'); /* Replace 'your-image.jpg' with the path to your image */
+    background-size: cover; /* Stretch the image to cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    margin: 0; /* Remove default margin */
+    padding: 0;
+}
+#search-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer
+}
+#search-input {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+.search-container {
+    display: flex;
+    align-items: center;
+}
+.language-bar {
+    display: inline-block;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+}
+header {
+    background: linear-gradient(to bottom, navy, darkblue); /* Gradient background */
+    color: #fff; /* Text color for links in the header */
+    padding: 1px; /* Add padding for spacing */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Box shadow */
+    border-top: 4px solid #007BFF; /* Top border */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Text shadow */
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullets from the list */
+    padding: 0; /* Remove default padding */
+}
+
+nav li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 20px; /* Add space between navigation items */
+}
+
+nav a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* Text color for links */
+}
+.page-container {
+    display: flex;
+    justify-content: space-between; /* Space elements evenly */
+    align-items: flex-start; /* Align items to the top */
+    padding: 20px; /* Add padding for spacing */
+}
+
+/* Style for the left-side section */
+.left-section {
+    flex: 1; /* Take up available space */
+    max-width: 50%; /* Limit maximum width if needed */
+}
+
+/* Style for the right-side content (if any) */
+.right-content {
+    flex: 1; /* Take up available space */
+}
+
+/* Style for the "Score Caster" section */
+.score-caster {
+    background-color: #f2f2f2; /* Background color */
+    padding: 10px;
+    width: px; /* Add padding for spacing */
+    border-radius: 7%;
+}
+.navbar a {
+    color:white; /* Change this to your desired default link color */
+    text-decoration: none; /* Remove underlines from links */
+    transition: color 1s; /* Add a smooth color transition */
+}
+.navbar a:hover {
+    color:blue; 
+}
+.page-container2 {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: space-between; /* Space elements evenly vertically */
+    align-items: flex-start; /* Align items to the top */
+    padding: 20px; /* Add padding for spacing */
+}
+
+/* Style for the left-side section */
+.left-section {
+    flex: 1; /* Take up available space */
+    max-width: 50%; /* Limit maximum width if needed */
+}
+
+/* Style for the bottom buttons */
+.bottom-buttons {
+    text-align: center; 
+    margin-right: -800px;
+    background-color: f2f2f2; /* Background color for the buttons container */
+    padding: 20px; /* Add padding as needed */
+    border-radius: %;
+}
+.button {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+
+    background-color: #5437c6;
+    font-size: 18px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+    margin: 10px 0
+}
+
+
+
+.button:hover,
+.button:active {
+    background-color: #2e1e82;
+}
